@@ -41,7 +41,7 @@ contract SenderReceiverTest is Test {
             chainSelector,
             address(receiver),
             iterations,
-            400000 // A predefined gas limit for the transaction.
+            26509 // A predefined gas limit for the transaction.
         );
         // Fetches recorded logs to check for specific events and their outcomes.
         Vm.Log[] memory logs = vm.getRecordedLogs();
